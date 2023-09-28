@@ -1,0 +1,143 @@
+/* General Styles */
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #fcb1c854;
+}
+
+/* Header */
+
+header {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: rgb(96, 162, 229);
+    color: #fff;
+}
+
+header h1 {
+    display: inline-block;
+    font-size: 48px;
+}
+
+header nav {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+header nav ul{
+    list-style-type: none;
+}
+
+header nav ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+/* Text Styles */
+
+a {
+    color: #ffffff;
+    text-decoration: none; 
+}
+
+p {
+    font-size: 16;
+}
+
+/* Globe Div with Background Image */
+
+.globe {
+    height: 300px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("/assets/images/globe.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+/* Floats */
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+.float-right {
+    float: left;
+    margin-right: 25px;
+}
+
+/* Main */
+
+main {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*body {
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    justify-content: flex-start;
+  }
+  
+  h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+  }
+  
+  h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  header {
+    padding: 40px;
+    text-align: center;
+    background: #13293d;
+    color: var(--white);
+  }
