@@ -7,7 +7,7 @@
 body {
     margin: 0;
     padding: 0;
-    background: url("../images/greentexture.jpg");
+    background: url("../images/wavywallpaper.jpg");
     background-size: cover;
 }
 
@@ -21,7 +21,7 @@ body {
 
 header h1 {
     padding-left: 0px;
-    margin-left: 200px;
+    margin-left: 400px;
     margin-bottom: 0px;
     float: left;
     text-align: left;
@@ -71,6 +71,7 @@ nav ul li a {
     width: 25%;
     padding: 5px;
     color: white;
+    margin-top: 40px;
     margin-right: 5px;
     margin-left: 200px;
     align-items: flex-start;
@@ -82,7 +83,7 @@ nav ul li a {
     padding: 5px;
     margin-left: 10px;
     margin-right: 200px;
-    margin-top: 40px;
+    margin-top: 30px;
     align-items: flex-end;
 }
 
@@ -90,13 +91,24 @@ nav ul li a {
     width: 180px;
     height: 250px;
     margin-top: 40px;
-    margin-left: 0px;
+    margin-left: 200px;
     margin-right: 20px;
-    margin-bottom: 40px;
+    margin-bottom: 5px;
     padding: 5px;
     border-width: 10px;
     border-style: solid;
     border-color: black;
+}
+
+#projects {
+    margin-top: 40px;
+    margin-left: 200px;
+    margin-bottom: 120;
+    font-size: 40px;
+}
+
+.projects {
+    margin-top: 200px;
 }
 
 .flex-container {
@@ -182,11 +194,12 @@ h2 {
 
 .about-me {
     width: 100%;
-    height:200px;
+    height: 150px;
     margin-right: 40px;
-    margin-bottom: 20px;
+    margin-bottom: 8px;
     font-size: 40px;
-    color: white; 
+    font-weight: bold;
+    color: white;
     background-color: none; 
 }
 
@@ -195,14 +208,39 @@ h2 {
     width: 100%;
     height: auto;
     font-size: 20px;
-    background-color: black;
+    background-color: none;
     color: white;
     padding-left: 8px;
     padding-top: 8px;
     padding-right: 8px;
+    margin-top: 0px;
 }
 
 .contact-me a{
+    color: white;
+}
+#contact h2 {
+    margin-top: 80px;
+    color: white
+}
+
+#contact {
+    margin-top: 200px;
+    margin-left: 200px;
+    font-size: 40px;
+}
+
+.contact {
+    margin-top: 100px;
+}
+
+.contact-me a{
+    color: white;
+}
+
+.boxcontact {
+    margin-top: 5px;
+    font-size: 40px;
     color: white;
 }
 
