@@ -10,8 +10,8 @@ I'm Helen Colon, a passionate and dedicated web developer currently pursuing my 
 
 ## Technology Used
 
-HTML for creating the structure of the web page.
-CSS for styling the user interface
+- HTML for creating the structure of the web page.
+- CSS for styling the user interface
 
 
 ## Usage
