@@ -98,6 +98,7 @@ nav ul li a {
     margin-right: 20px;
     margin-bottom: 5px;
     padding: 5px;
+    border-radius: 20px;
 }
 
 #helen {
@@ -139,6 +140,7 @@ nav ul li a {
     margin-right: 10px;
     margin-left: 5px;
     margin-top: 20px;
+    border-radius: 20px;
     background-color: black;
 }
 
@@ -173,6 +175,7 @@ nav ul li a {
     justify-content: center;
     text-align: center;
     font-size: 18px;
+    border-radius: 20px;
     background-color: black;
     color: white;
 }
