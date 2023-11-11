@@ -28,7 +28,11 @@ Open the portfolio by visiting the webpage at: https://lychnian.github.io/Web-De
 Thank you for visiting my portfolio!
 
 
-## Screenshots
+## Screenshot
+
+
+![MyPortfolioImage](https://github.com/Lychnian/Web-Developer-Portfolio/assets/140586279/9755528e-ee5f-42cd-9d31-7097bba63eff)
+
 
 
 ## Credits
