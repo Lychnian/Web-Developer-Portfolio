@@ -31,7 +31,8 @@ Thank you for visiting my portfolio!
 ## Screenshot
 
 
-![MyPortfolioImage](https://github.com/Lychnian/Web-Developer-Portfolio/assets/140586279/9755528e-ee5f-42cd-9d31-7097bba63eff)
+![MyPortfolio](https://github.com/Lychnian/Web-Developer-Portfolio/assets/140586279/0f5bcec7-40ee-41ab-8801-ca2f02c3c83a)
+
 
 
 
