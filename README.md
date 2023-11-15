@@ -30,8 +30,29 @@ Thank you for visiting my portfolio!
 
 ## Screenshot
 
+My Portfolio
 
-![MyPortfolio](https://github.com/Lychnian/Web-Developer-Portfolio/assets/140586279/0f5bcec7-40ee-41ab-8801-ca2f02c3c83a)
+
+![My Portfolio](https://github.com/Lychnian/Web-Developer-Portfolio/assets/140586279/922fd2f2-3b9f-48f4-a346-04aa79dcadb2)
+
+
+My Featured Projects
+
+
+![Dog Breeds for You](https://github.com/Lychnian/Web-Developer-Portfolio/assets/140586279/57f13581-5db3-41c3-89cb-359d1b304882)
+
+
+![Timed Quiz](https://github.com/Lychnian/Web-Developer-Portfolio/assets/140586279/048b3119-d44c-414a-abd0-c658632eb8b5)
+
+
+![Scheduler](https://github.com/Lychnian/Web-Developer-Portfolio/assets/140586279/254175f1-9813-487f-a4b6-f1fdb866a52f)
+
+
+![Password](https://github.com/Lychnian/Web-Developer-Portfolio/assets/140586279/f9f9dc1b-e901-4fd4-8bd2-9be850a4feb2)
+
+
+![Horiseon](https://github.com/Lychnian/Web-Developer-Portfolio/assets/140586279/78933e42-5dfc-45b6-8338-e9e1d0a7656b)
+
 
 
 
