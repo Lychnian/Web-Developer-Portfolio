@@ -5,7 +5,7 @@ Welcome to my Web Developer Portfolio! This repository showcases my skills, proj
 
 ## Description
 
-I'm Helen Colon, a passionate and dedicated web developer currently pursuing my journey in the dynamic world of web development. I am enrolled in UPenn's LPS Coding Bootcamp, where I am mastering both front-end and back-end technologies. I thrive on problem-solving and innovative thinking. Every project I undertake is an opportunity to challenge myself and learn something new!
+I'm Helen Colon, a passionate and dedicated web developer currently pursuing my journey in the dynamic world of web development. I am enrolled in UPenn's LPS Coding Bootcamp, where I am mastering both front-end and back-end technologies. I thrive on problem-solving and innovative thinking. Every project I undertake is an opportunity to challenge myself and create something new!
 
 
 ## Technology Used
