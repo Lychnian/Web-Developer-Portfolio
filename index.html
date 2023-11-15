@@ -2,90 +2,112 @@
 <html lang="en">
 
 <head>
+    <!--Meta information for character set and viewport-->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--Link to external stylesheet for styling-->
     <link rel="stylesheet" href="./assets/css/style.css">
+    
+    <!--Link to Google Fonts-->
     <link href="https://fonts.googleapis.com/css2?family=Young+Serif&display=swap" rel="stylesheet">
+
+    <!--Page Title-->
     <title>Web Developer Portfolio</title>
+
+    <!--Header section-->
 </head>
 
 <body>
     
     <header>
         <div class="header">
+
+            <!--Main Title-->
             <h1>Helen Colon</h1>
             <nav>
                 <ul>
+
+                    <!--Navigation links with corresponding IDs-->
                     <li><a href="#about-me">About Me</a></li>
-                    <li><a href="#projects">Projects</a></li>
-                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#major">Projects</a></li>
+                    <li><a href="#boxcontact">Contact</a></li>
                     <li><a href="#resume" id="resumeLink">Resume</a></li>
                 </ul>
             </nav>
         </div>
     </header>
 
+    <!--Main content Section-->
     <main>
+
+        <!--Left section containing profile picture, projects and contact-->
         <div class="left-section">
+            <!--Profile picture-->
             <div class="my-image">
                 <img src="./assets/images/Helen1020.jpg" alt="My Profile Picture" id="helen" />
             </div>
+            <!--Section for Projects-->
              <div id="projects">
                 <h2>Projects</h2>
             </div>
-            <br>
-            <br>
-            <br>
-            <br>
+            <!--Section for Contact-->
             <div id="contact">
                 <h2>Contact</h2>
             </div>
         </div>
 
+        <!--Right section containing About Me, Projects, and Contact details-->
         <div class="right-section">
             <div class="about-me">
                 <p><h4>About Me</h4></p>
                 <p>Hello! I'm Helen, a passionate and dedicated web developer currently pursuing my journey in the dynamic world of web 
                 development. I am enrolled in UPenn's LPS Coding Bootcamp, where I am mastering both front-end and back-end 
                 technologies. I thrive on problem-solving and innovative thinking. Every project I undertake is an opportunity to 
-                challenge myself and learn something new!</p>
+                challenge myself and create something new!</p>
             </div>
-
+            <!--Projects sections-->
             <div class="projects">
                 <div class="flex-container">
-                    <div class="major-box">
+                    <!--Individual project boxes with images-->
+                    <div class="major-box" id="major" style="background-image: url('.assets/images/dogs.jpg')">
                         <p><a href="https://Lychnian.github.io/dog-breeds-for-you/">Dog Breeds For You</a></p>
                     </div>
 
-                    <div class="box">
-                        <p><a href="https://Lychnian.github.io/js-timed-quiz/">JavaScript Timed Quiz</a></p>
+                    <div class="box" style="background-image: url('.assets/images/quiz.jpg')">
+                        <p><a href="https://Lychnian.github.io/js-timed-quiz/">Timed Quiz</a></p>
                     </div>
 
-                    <div class="box">
-                        <p><a href="https://Lychnian.github.io/work-day-scheduler/">Work Day Scheduler</a></p>
+                    <div class="box" style="background-image: url('.assets/images/scheduler.jpg')">
+                        <p><a href="https://Lychnian.github.io/work-day-scheduler/">Scheduler</a></p>
                     </div>
 
-                    <div class="box">
-                        <p><a href="https://Lychnian.github.io/password-generator/">Password Generator</a></p>
+                    <div class="box" style="background-image: url('.assets/images/password.jpg')">
+                        <p><a href="https://Lychnian.github.io/password-generator/">Password</a></p>
                     </div>
 
-                    <div class="box">
-                        <p><a href="https://Lychnian.github.io/accessible-marketing-website/"><h3>Accessible Marketing Website</h3></a></p>
+                    <div class="box"style="background-image: url('.assets/images/horiseon.jpg')">
+                        <p><a href="https://Lychnian.github.io/accessible-marketing-website/"><h3>Horiseon</h3></a></p>
                     </div>
-                    <div class="boxcontact">
+
+                    <!--Contact details box-->
+                    <div class="boxcontact" id="boxcontact">
                         <p><span>GitHub:</span>
-                        <a href="https://github.com/Lychnian">Lychnian</a>helenvcolon@gmail.com</p>
+                            <a href="https://github.com/Lychnian">Lychnian</a><span>Email:</span>
+                            <a href="mailto:helenvcolon@gmail.com">helenvcolon@gmail.com</a>
+                        </p>
                     </div>
-
-                    <footer>
-                        <p><pre>Made by 🌷 Helen Colon</pre></p>
-                    </footer>
-
                 </div>
             </div>
         </div>
 
+    <!--Footer section-->    
+    <footer>
+        <p><pre>🌷 Made by 🌷Helen Colon🌷</pre></p>
+    </footer>
+
     </main>
+    
 </body>
 
 </html>               
