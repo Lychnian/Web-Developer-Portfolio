@@ -1,5 +1,7 @@
 /* Universal Styles */
 
+/* Set a common font for all elements */
+
 * {
     font-family:'Young Serif', serif;
 }
@@ -19,10 +21,11 @@ body {
     text-align: center;
 }
 
+/* Header h1 styles */
 header h1 {
     padding-left: 0px;
-    margin-left: 400px;
-    margin-bottom: 0px;
+    padding-top: 10px;
+    margin-left: 250px;
     float: left;
     text-align: left;
     font-family: "Lucida Handwriting";
@@ -30,6 +33,12 @@ header h1 {
     color: white;
 }
 
+/* Change header color to yellow on hover */
+header h1:hover {
+    color: #f7e185;
+}
+
+/* Navigation styles */
 header nav {
 list-style-type: none;
 padding-top: 10px;
@@ -61,11 +70,20 @@ nav ul li a {
     text-align: center;
 }
 
+/* Change nav list link color to yellow on hover*/
+a[href="#about-me"]:hover,
+a[href="#major"]:hover,
+a[href="#boxcontact"]:hover {
+    color: #f7e185;
+}
+
+/* Main container styles */
 .main {
     display: flex;
     flex-direction: column;
 }
 
+/* Left section styles */
 .left-section {
     display: block;
     float: left;
@@ -74,22 +92,25 @@ nav ul li a {
     color: white;
     margin-top: 40px;
     margin-right: 20px;
-    margin-left: 200px;
+    margin-left: 100px;
     align-items: flex-start;
     padding-right: 2px;
     border-right: 15px solid #00693e;
 }
 
+/* Right section styles */
 .right-section {
     float: right;
     width: 45%;
-    padding: 5px;
+    padding: 10px;
     margin-left: 10px;
-    margin-right: 200px;
-    margin-top: 30px;
+    margin-right: 100px;
+    margin-top: 20px;
     align-items: flex-end;
+    box-sizing: border-box;
 }
 
+/* Image styles */
 #helen {
     width: 200px;
     height: 290px;
@@ -101,15 +122,18 @@ nav ul li a {
     border-radius: 20px;
 }
 
+/* Add transition effect to image border color on hover */
 #helen {
     border: 10px solid black;
     transition: border-color 0.3s ease;
 }
 
+/* Change image border color to white on hover */
 #helen:hover {
     border-color:white;
 }
 
+/* Projects section title styles */
 #projects {
     margin-top: 40px;
     margin-left: 200px;
@@ -117,16 +141,28 @@ nav ul li a {
     font-size: 40px;
 }
 
-.projects {
-    margin-top: 200px;
+/* Change Projects Title color to yellow on hover */
+#projects h2:hover {
+    color: #f7e185;
 }
 
+/* Projects section styles */
+.projects {
+    padding-top: 20px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+/* Flex container styles for projects */
 .flex-container {
     display: flex;
     flex-wrap: wrap;
     align-content: flex-end;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
+/* Major project box styles */
 .major-box {
     display: flex;
     width: 97%;
@@ -137,13 +173,16 @@ nav ul li a {
     font-size: 24px;
     font-weight: normal;
     margin-bottom: 10px;
-    margin-right: 10px;
-    margin-left: 5px;
+    margin-right: 0px;
+    margin-left: 0px;
     margin-top: 20px;
     border-radius: 20px;
-    background-color: black;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
+/* Major project link styles */
 .major-box a {
     display: flex;
     align-items: center;
@@ -151,10 +190,10 @@ nav ul li a {
     width: 100%;
     height: 100%;
     text-decoration: none;
-    background-color: black;
     color: white;
 }
 
+/* Major project text styles */
 .major-box p {
     display: inline-block;
     font-size: 30px;
@@ -165,6 +204,7 @@ nav ul li a {
     justify-self: center;
 }
 
+/* Regular projects box styles */
 .box {
     display: flex;
     width: 48%;
@@ -176,10 +216,12 @@ nav ul li a {
     text-align: center;
     font-size: 18px;
     border-radius: 20px;
-    background-color: black;
-    color: white;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
+/* Regular projects link styles */
 .box a {
     display: flex;
     align-items: center;
@@ -187,10 +229,10 @@ nav ul li a {
     width: 100%;
     height: 100%;
     text-decoration: none;
-    background-color: black;
     color: white;
 }
 
+/* Regular projects text styles */
 .box p {
     display: inline-block;
     font-size: 30px;
@@ -201,10 +243,12 @@ nav ul li a {
     justify-self: center;
 }
 
+/* H2 styles */
 h2 {
     color: white;
 }
 
+/* Hover effect on resume link (message) */
 #resumeLink:hover::before {
     content: 'RESUME COMING SOON!';
     display: block;
@@ -215,17 +259,25 @@ h2 {
     color: red;
 }
 
-.about-me {
+/* About Me section styles */
+.about-me h2 {
     width: 100%;
-    height: 150px;
+    padding: 10px;
     margin-right: 40px;
     margin-bottom: 8px;
-    font-size: 40px;
+    font-size: 30px;
     font-weight: bold;
     color: white;
     background-color: none; 
 }
 
+/* Change About Me H2 color to yellow on hover */
+.about-me h2:hover {
+    color: #f7e185;
+}
+
+
+/* About Me paragraph styles */
 .about-me p{
     flex-wrap: wrap;
     width: 100%;
@@ -234,37 +286,52 @@ h2 {
     font-weight: normal;
     background-color: none;
     color: white;
-    padding-left: 8px;
-    padding-top: 8px;
-    padding-right: 8px;
-    margin-top: 0px;
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-right: 10px;
+    margin-top: 5px;
+    margin-right: 5px;
 }
 
+/* Hover effect on about-me paragraph text */
+.right-section .about-me p:hover {
+    color: #f7e185;
+}
+
+/* Contact section link styles */
 .contact-me a{
     color: white;
 }
+
 #contact h2 {
-    margin-top: 180px;
+    margin-top: 220px;
     color: white
 }
 
 #contact {
-    margin-top: 20px;
+    margin-top: 245px;
     margin-left: 200px;
     font-size: 40px;
 }
 
 .contact {
-    margin-top: 100px;
+    margin-top: 150px;
 }
 
+/* Change Contact H2 color to yellow on hover */
+#contact h2:hover {
+    color: #f7e185;
+}
+
+/* Styling for contact information */
 .boxcontact {
     display: flex;
     width: 100%;
     height: 140px;
-    align-items: left;
-    justify-content: left;
+    align-items: center;
+    justify-content: center;
     font-size: 30px;
+    padding-bottom: 20px;
     margin-bottom: 5px;
     margin-right: 7px;
     margin-left: 5px;
@@ -272,32 +339,593 @@ h2 {
     color: white;
 }
 
+#boxcontact a {
+    text-decoration: underline;
+    color: #0c8fed; /* Blue color */
+}
+  
+  /* Hover state */
+ #boxcontact a:hover {
+    color: #f41317; /* Darker blue on hover */
+  }
+  
 /* Footer style */ 
 footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 70px;
+    background-color: black;
+    padding: 10px;
     text-align: center;
     color: white;
+    font-size: 20px;
+    font-weight: bolder;   
+}
+
+footer p {
+    padding-top: 10px;
+}
+
+/* Change Footer text color to yellow on hover */
+footer pre:hover {
+    color: #f7e185;
+}
+
+
+/*Media Queries for Responsiveness on laptops and notebooks*/
+
+@media screen and (max-width: 1700px) {
+    .left-section {
+        width: 20%;
+        margin-left: 20px;
+        margin-right: 10px;
+    }
+
+    .right-section {
+        width: 65%;
+        margin-left: 10px;
+        margin-right: 20px;
+    }
+    
+    header h1 {
+        margin-left: 20px;
+        color: white;
+    }
+    
+    .my-img {
+        margin-left: 20px;
+        margin-right: 10px;
+    }
+
+    #helen {
+        margin-left: 30px;
+        margin-right:10px;
+    }
+
+    .my-img {
+        margin-right: 10px;
+        margin-left:20px;
+    }
+
+    #projects {
+        margin-left: 20px;
+        margin-right:10px;    
+    }
+
+    #contact {
+        margin-top: 250px;
+        margin-left: 20px;
+        margin-right:10px;
+    }
+
+   
+    .about-me {
+        margin-left: 10px;
+        margin-right:10px;
+        font-size: 30px;
+    }
+
+    .about-me p{
+        flex-wrap: wrap;
+        width: 100%;
+        height: auto;
+        font-size: 16px;
+        font-weight: normal;
+        background-color: none;
+        color: white;
+        padding-left: 10px;
+        padding-top: 8px;
+        padding-right: 10px;
+        margin-top: 0px;
+        margin-right: 8px;
+    }
+
+    .projects {
+        margin-left: 10px;
+        margin-right:20px;
+    }
+
+    .boxcontact {
+    display: flex;
+    width: 100%;
+    height: 60px;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 60px;
+    margin-right: 7px;
+    margin-left: 5px;
+    margin-top: 5px;
+    color: white;
+    }
+}
+   
+
+
+/*Media Queries for Responsiveness on laptops and notebooks*/
+@media screen and (max-width: 1200px) {
+    .header {
+        height: auto; /* Allow height to adjust based on content */
+    }
+
+    header h1 {
+        margin-left: 50px; /* Adjust spacing */
+        font-size: 28px; /* Reduce font size */
+    }
+
+    header nav {
+        margin-right: 10px; /* Adjust spacing */
+    }
+
+    nav ul li {
+        margin-right: 40px; /* Adjust spacing */
+    }
+
+    #helen {
+        width: 80%; /* Make the image fill the width of its container */
+        max-width: 100%; /* Ensure the image doesn't exceed its natural size */
+        height: auto; /* Maintain aspect ratio */
+        margin: 0px;
+        margin-left: 100px;
+    }
+
+    .left-section {
+        float: none;
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+        border-right: none;
+    }
+
+    .right-section {
+        float: none;
+        width: 100%;
+        margin-left: 10px;
+        margin-right: 10px;
+        border-left: none;
+    }
+   
+    .left-section #projects,
+    .left-section #contact {
+        display: none;       
+    }
+
+    .about-me p {
+    flex-wrap: wrap;
+    width: 100%;
+    height: auto;
+    font-size: 20px;
+    font-weight: normal;
+    background-color: none;
+    color: white;
+    padding-left: 5px;
+    padding-top: 8px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    margin-top: 0px;
+    margin-right: 8px;
+    margin-bottom: 10px;
+    }
+
+    footer {
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    }
+}
+
+
+/*Media Queries for Responsiveness on laptops and notebooks*/
+@media screen and (max-width: 830px) {
+    .header {
+        height: auto; /* Allow height to adjust based on content */
+    }
+
+    header h1 {
+        margin-left: 30px; /* Adjust spacing */
+        font-size: 24px; /* Reduce font size */
+    }
+
+    header nav {
+        margin-right: 10px; /* Adjust spacing */
+        font-size: 18px;
+    }
+
+    nav ul li {
+        margin-right: 40px; /* Adjust spacing */
+    }
+
+    #helen {
+        width: 80%; /* Make the image fill the width of its container */
+        max-width: 100%; /* Ensure the image doesn't exceed its natural size */
+        height: auto; /* Maintain aspect ratio */
+        margin: 0px;
+        margin-left: 40px;
+    }
+
+    .left-section {
+        float: none;
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+        border-right: none;
+    }
+
+    .right-section {
+        float: none;
+        width: 100%;
+        margin-left: 10px;
+        margin-right: 10px;
+        border-left: none;
+    }
+   
+    .left-section #projects,
+    .left-section #contact {
+        display: none;
+    }
+
+    .about-me {
+    width: 100%;
+    height: 40px;
+    margin-right: 40px;
+    margin-bottom: 8px;
     font-size: 24px;
-    font-weight: bolder;
-}
+    font-weight: bold;
+    color: white;
+    background-color: none; 
+    }
 
-/* @media screen and (max-width: 768px) {
-    .left-section, .right-section {
+    .about-me p {
+    flex-wrap: wrap;
     width: 100%;
+    height: auto;
+    font-size: 16px;
+    font-weight: normal;
+    background-color: none;
+    color: white;
+    padding-left: 5px;
+    padding-top: 8px;
+    padding-right: 10px;
+    margin-top: 0px;
+    margin-right: 8px;
+    margin-bottom: 10px;
+    }
+
+    .projects {
+        margin-top: 150px;
+    }
+
+    .major-box p{
+        font-size: 18px;
+    }
+
+    .box p{
+        font-size: 18px;
+    }
+
+    .boxcontact {
+    height: 100px;
+    font-size: 18px;
+    padding-top: 10px;
+    margin-top: 10px;
+    }    
+
+    #resumeLink:hover::before {
+    content: 'RESUME COMING SOON!';
+    display: block;
+    text-align: right;
+    margin-bottom: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    color: red;
+}
+    footer {
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    }
 }
 
-.box {
-    width; 100%;
-    margin: 2% 0;
-}
 
-@media screen and (max-width: 400px) {
-    .left-section, .right-section {
+/*Media Queries for Responsiveness on small devices*/
+@media screen and (max-width: 595px) {
+
+    body {
+        font-size: 16px;
+    }
+
+    .header {
+        height: auto; /* Allow height to adjust based on content */
+    }
+
+    header h1 {
+        margin-left: 50px; /* Adjust spacing */
+        font-size: 18px; /* Reduce font size */
+    }
+
+
+    header nav {
+        font-size: 12px;
+        margin-right: 5px; /* Adjust spacing */
+    }
+
+    nav ul li {
+        margin-right: 5px; /* Adjust spacing */
+    }
+
+    .my-img {
+        text-align: center;
+        margin: 0;
+    }
+
+    #helen {
+        width: 50%; /* Make the image fill the width of its container */
+        max-width: 100%; /* Ensure the image doesn't exceed its natural size */
+        height: auto; /* Maintain aspect ratio */
+        margin-right: 60px;
+        margin-top: 20px;
+    }
+
+    .flex-container {
+        display: flex;
+        flex-wrap: wrap;
+        align-content: flex-end;
+        margin-top: 10px;
+    }
+
+    .left-section {
+        float: none;
+        width: 100%;
+        margin: 0px;
+    }
+
+    .right-section {
+        float: none;
+        width: 100%;
+        padding: 5px;
+        margin: 5px;
+    }
+   
+    .left-section #projects,
+    .left-section #contact {
+        display: none;
+    }
+
+    h2, about-me {
+        color: white;
+        font-size: 16px;
+    }
+
+    .about-me p {
+    flex-wrap: wrap;
     width: 100%;
+    height: auto;
+    font-size: 14px;
+    font-weight: normal;
+    background-color: none;
+    color: white;
+    padding-top: 0;
+    padding-right: 5px;
+    padding-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    }
+
+    .major-box {
+        height: 40px;
+        padding-bottom: 5px;
+        margin-bottom: 10px;
+    }
+
+    .major-box p{
+        font-size: 14px;
+        font-weight: normal;
+    }
+
+    .box {
+        height: 40px;
+        width: 100%;
+        padding-bottom: 5px;
+        margin-bottom: 10px;
+    }
+
+    .box p{
+        font-size: 14px;
+        font-weight: normal;
+    }
+
+    .boxcontact {
+    width: 100%;
+    height: 30px;
+    margin: 0;
+    padding-top: 3px;
+    padding-bottom: 20px;
+    font-size: 14px;
+    } 
+
+    .projects {
+        margin-top: 70px;
+    }
+
+    #resumeLink:hover::before {
+    content: 'RESUME COMING SOON!';
+    display: block;
+    text-align: right;
+    margin-bottom: 5px;
+    font-size: 14px;
+    font-weight: bold;
+    color: red;
+}   
+
+    footer {
+    font-size: 12px;
+    font-weight: normal;
+    height: 24px;
+    text-align: center;
+    align-items: center;
+    margin: 0;
+    padding: 3px;
+    }
 }
 
-.box {
-    width; 100%;
-    margin: 2% 0;
-}
-*/
 
+
+/*Media Queries for Responsiveness on mobile devices*/
+@media screen and (max-width: 485px) {
+    .header {
+        height: auto; /* Allow height to adjust based on content */
+    }
+
+    header h1 {
+        margin-left: 50px; /* Adjust spacing */
+        font-size: 18px; /* Reduce font size */
+    }
+
+
+    header nav {
+        font-size: 12px;
+        margin-right: 5px; /* Adjust spacing */
+    }
+
+    nav ul li {
+        margin-right: 5px; /* Adjust spacing */
+    }
+
+    .my-img {
+        text-align: center;
+        margin: 0;
+    }
+
+    #helen {
+        width: 50%; /* Make the image fill the width of its container */
+        max-width: 100%; /* Ensure the image doesn't exceed its natural size */
+        height: auto; /* Maintain aspect ratio */
+        margin-right: 60px;
+        margin-top: 20px;
+    }
+
+    .flex-container {
+        display: flex;
+        flex-wrap: wrap;
+        align-content: flex-end;
+        margin-top: 5px;
+    }
+
+    .left-section {
+        float: none;
+        width: 100%;
+        margin: 0px;
+    }
+
+    .right-section {
+        float: none;
+        width: 100%;
+        padding: 5px;
+        padding-bottom: 10px;
+        margin: 5px;
+    }
+   
+    .left-section #projects,
+    .left-section #contact {
+        display: none;
+    }
+
+    h2, about-me {
+        color: white;
+        font-size: 16px;
+    }
+
+    .about-me p {
+    flex-wrap: wrap;
+    width: 100%;
+    height: auto;
+    font-size: 14px;
+    font-weight: normal;
+    background-color: none;
+    color: white;
+    padding-top: 0;
+    padding-right: 20px;
+    padding-left: 5px;
+    margin-right: 20px;
+    margin-bottom: 5px;
+    }
+
+    .major-box {
+        height: 43px;
+        width: 100%;
+        padding-bottom: 0px;
+        margin-bottom: 3px;
+    }
+
+    .major-box p{
+        font-size: 14px;
+        font-weight: normal;
+    }
+
+    .box {
+        height: 43px;
+        width: 100%;
+        padding-bottom: 0px;
+        margin-bottom: 3px;
+    }
+
+    .box p{
+        font-size: 14px;
+        font-weight: normal;
+    }
+
+    .boxcontact {
+    width: 100%;
+    height: 30px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    font-size: 14px;
+    } 
+
+    .projects {
+        margin-top: 100px;
+    }
+
+    #resumeLink:hover::before {
+    content: 'RESUME COMING SOON!';
+    display: block;
+    text-align: right;
+    margin-bottom: 5px;
+    font-size: 12px;
+    color: red;
+}   
+
+    footer {
+    font-size: 12px;
+    font-weight: normal;
+    height: 24px;
+    text-align: center;
+    align-items: center;
+    margin: 0;
+    padding: 3px;
+    padding-bottom: 12px;
+    } 
+}
