@@ -33,7 +33,8 @@ Thank you for visiting my portfolio!
 My Portfolio
 
 
-![My Portfolio](https://github.com/Lychnian/Web-Developer-Portfolio/assets/140586279/922fd2f2-3b9f-48f4-a346-04aa79dcadb2)
+![My Portfolio](https://github.com/Lychnian/Web-Developer-Portfolio/assets/140586279/e0793532-5e05-417b-b12b-b69408716554)
+
 
 
 My Featured Projects
@@ -51,9 +52,7 @@ My Featured Projects
 ![Password](https://github.com/Lychnian/Web-Developer-Portfolio/assets/140586279/f9f9dc1b-e901-4fd4-8bd2-9be850a4feb2)
 
 
-![Horiseon](https://github.com/Lychnian/Web-Developer-Portfolio/assets/140586279/78933e42-5dfc-45b6-8338-e9e1d0a7656b)
-
-
+![garden bliss application](https://github.com/Lychnian/Web-Developer-Portfolio/assets/140586279/f04b9b65-f3b2-4972-af78-1b774b6b7025)
 
 
 
@@ -65,3 +64,4 @@ N/A
 ## License
 
 This project is licensed under the MIT License.
+
